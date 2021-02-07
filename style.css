@@ -525,6 +525,232 @@ h3{
 
 
 
+
+
+
+
+
+
+
+@media only screen and (max-width:730px) and (min-width: 414px){
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 10px;
+        padding: 10px;
+        background: url('b1.jpg');
+        background-size: cover;
+        background-attachment:fixed;
+    
+    }
+
+    div #clock{
+        height: 2rem;
+        width: 20rem;
+        color: white;
+        text-align: center;
+        margin: 0px 325px;
+        font-size: 25px;
+        border-radius: 18px;
+        
+
+    }
+
+    
+
+    /* logo part*/
+    .left {
+
+        /*logo part*/
+    
+        position: absolute;
+        display: inline-block;
+        left: 430px;
+        width: 75px;
+        top: 55px;
+    }
+    
+
+    .right {
+
+        /*contact us wala part */
+    
+       position: absolute;
+        /*border: 2px solid black;*/
+        display: block;
+        right: -200px;
+        top: 165px;
+    }
+
+
+    .middle {
+
+        /*menu wala part */
+    
+        display: block;
+        border: 2px solid black;
+        background-color:black;
+        border-radius: 18px;
+        margin: 45px 150px;
+        width: 67%;
+        top: 185px;
+        position:fixed;
+        text-align: center;
+    
+    }
+        
+
+    .nav {
+        display: inline;
+        
+    
+    }
+
+    .nav li {
+
+        display: inline-block;
+        padding: 0px;
+        margin: 5px;
+        text-align: center;
+        font-size: 15px;
+        }
+
+        .container {
+
+            border:2px solid black;
+            border-radius: 10px;
+            text-align: center;
+            margin: 240px 150px;
+            width:160%;
+            padding: 2px;
+            background-color: black;
+        
+        }
+
+        .container4{
+            border: 2px solid black;
+            margin: -205px 150px;
+            width:143%;
+            border-radius: 10px;
+            padding: 30px;
+            background-color: black;
+            text-align: center;
+            
+        }
+        
+        .container4 h1{
+            font-size: 100%;
+        }
+
+        .form-group input{
+            text-align: center;
+            display: inline-block;
+            width:300px;
+            margin: 3px auto;
+            padding: 16px;
+            border: 2px solid black;
+            border-radius: 14px;
+            font-size: large;
+            font-weight: bold;
+        }
+
+        
+
+        .form-group textarea{
+            text-align: center;
+            display: inline-block;
+            width:300px;
+            margin: 3px auto;
+            padding: 16px;
+            border: 2px solid black;
+            border-radius: 14px;
+            resize: none;
+            font-size:x-large;
+            font-weight: bold;
+        }
+
+        .container5{
+            border: 2px solid black;
+            border-radius: 18px;
+            background-color: black;
+            margin: -150px 152px;
+            width: 160%;
+            height: 250px;
+            align-items: center;
+           
+            /*display: flex;*/
+            justify-content: space-evenly;
+        }
+
+        
+
+        .item img{
+            height: 145px;
+           
+        }
+
+        .map{
+            /*border: 2px solid black;*/
+           
+            margin:210px 150px;
+            border-radius: 18px;
+            background-color: black;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-items: center;
+             height: 145px;
+             width: 140%;
+           
+        }
+
+        iframe{
+            height: 128px;
+            width: 414px;
+            padding: 0px;
+        }
+        
+        
+    
+        .map h2{
+            
+            font-size:large;
+            margin :5px;
+            padding:0px;
+
+        }
+
+        .container6{
+            border-radius: 18px;
+            border: 2px solid black;
+            background-color: black;
+            margin: -180px 152px;
+            padding: 40px;
+            width: 140%;
+        }
+
+        
+    .container6 h2{
+        margin-top: -80px;
+        color: white;
+        font-size: xx-large;
+    }
+
+    .container6 img{
+        margin:-60px 196px;
+        height: 45px;
+        display: inline-block;
+        position: absolute;
+    }
+
+    h3{
+        color: white;
+        margin: 90px 5px;
+        text-align: center;
+}
+
+
+}
+
 /*.footer{
     border:2px solid black;
     position:sticky;
